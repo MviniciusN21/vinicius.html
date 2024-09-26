@@ -1,0 +1,325 @@
+<html>
+<html lang="en">
+	<head>
+         
+        <link rel="icon" type="image/x-icon" href="https://seeklogo.com/images/R/red-hot-chili-peppers-logo-EE8D208474-seeklogo.com.png">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<title>RHCPmusic</title>
+        <link rel="icon" type="image/x-icon" href="">
+	</head>
+	<body> 
+        
+
+       <style>
+        
+body {
+    background-image: url("https://mrwallpaper.com/images/hd/the-red-hot-chili-peppers-performing-together-on-stage-2l8tudlsy73n181k.jpg")  ;
+    width:100%;
+    background-position:35% ;
+    background-repeat: no-repeat;
+   background-color: rgb(34, 33, 33);
+  
+}
+        .showcase-container{
+           
+        }
+         :root {
+            --default-green: #0a0a0a;
+            --light-green: #a30606;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: "Roboto", sans-serif;
+        }
+        
+        /* Utility Classes */
+        .btn-primary {
+            background: var(--default-green);
+            color: rgb(226, 220, 220);
+            text-transform: uppercase;
+            padding: 15px 60px;
+            border: none;
+            border-radius: 30px;
+            letter-spacing: 1px;
+            font-weight: bold;
+            transition: all 300ms ease;
+        }
+        
+        .btn-primary:hover {
+            background: var(--light-black);
+            cursor: pointer;
+        }
+        
+        .logo {
+            height: 40px;
+            width: auto;
+        }
+        
+        /* Navbar */
+        #navbar {
+            display: flex;
+            background-color: rgba(7, 7, 7, 0.6);
+            color: rgb(190, 0, 0);
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        
+        #navbar .navbar-container {
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 0;
+            color: #bdb6b6;
+        }
+        
+        #navbar .navbar-container ul {
+            display: flex;
+            list-style: none;
+            font-weight: bold;
+        }
+        
+        #navbar .navbar-container ul li {
+            padding: 0 20px;
+            transition: all 300ms ease;
+        }
+        
+        #navbar .navbar-container ul li:hover {
+            color: #000000;
+            cursor: pointer;
+        }
+        
+        #navbar .navbar-container ul li:nth-child(3) {
+            border-right: 1px solid rgb(212, 206, 206);
+        }
+        
+        /* Showcase */
+        #showcase {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(207, 194, 194);
+            background: url("/img/showcase.webp") center center/cover;
+            background-color: rgba(2, 2, 2, 0.4);
+            background-blend-mode: color;
+        }
+        
+        #showcase .showcase-container {
+            display: flex;
+            color: #faf4f4;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #showcase .showcase-container h2 {
+            font-size: 5rem;
+        }
+        
+        #showcase .showcase-container p {
+            margin: 15px 0;
+            font-size: 1.1rem;
+        }
+        
+        /* Footer */
+        #footer {
+            background: rgb(34, 33, 33);
+            color: rgb(0, 0, 0);
+            padding: 80px 0;
+        }
+        
+        #footer .footer-content {
+            display: flex;
+            width: 60%;
+            margin: auto;
+            justify-content: space-between;
+        }
+        
+        #footer .footer-content .footer-menu {
+            margin: 0 60px;
+            list-style: none;
+        }
+        
+        #footer .footer-content .footer-menu .footer-menu-item {
+            margin: 25px 0;
+            transition: all 300ms ease;
+        }
+        
+        #footer .footer-content .footer-menu .footer-menu-item:hover {
+            color: var(--default-green);
+            cursor: pointer;
+        }
+        
+        #footer .footer-content .footer-menu p {
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #0a0a0a;
+            font-size: 0.8rem;
+        }
+        
+        /* Footer Socials */
+        .socials {
+            display: flex;
+        }
+        
+        .socials i {
+            margin: 0 20px;
+            font-size: 1.7rem;
+            transition: all 300ms ease;
+        }
+        
+        .socials i:hover {
+            color: var(--default-green);
+            cursor: pointer;
+        }
+        
+        /* Footer Info */
+        .footer-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            width: 60%;
+            margin: auto;
+            font-weight: bold;
+            color: #cec7c7;
+            font-size: 0.75rem;
+            padding-top: 50px;
+        }
+        
+        .footer-info .footer-info-items {
+            display: flex;
+            list-style: none;
+        }
+        
+        .footer-info .footer-info-items .footer-info-item {
+            margin: 0 10px;
+            transition: all 300ms ease;
+        }
+        
+        .footer-info .footer-info-items .footer-info-item:hover {
+            color: var(--default-green);
+            cursor: pointer;
+        }
+        
+        .footer-info .rights .country {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .footer-info .rights .country p {
+            transition: all 300ms ease;
+        }
+        
+        .footer-info .rights .country p:hover {
+            color: var(--default-green);
+            cursor: pointer;
+        }
+        
+        .footer-info .rights .country .brazil-flag {
+            height: 20px;
+            width: auto;
+            display: inline-block;
+            margin-left: 10px;
+        }
+       
+ 
+       </style>
+		<!-- Navbar -->
+		<navbar id="navbar">
+			<div class="navbar-container">
+                <img src="https://media2.giphy.com/media/McZiWIoOnYrTXYhgvA/giphy.gif" width="75" alt="95" />
+                
+				<p>
+                    <h1>RHCPmusic</h1>
+                </p>
+				
+				<ul class="navbar-items">
+					<li class="navbar-item">Albuns</li>
+					
+					<li class="navbar-item">Inscrever-se</li>
+					<li class="navbar-item">Entrar</li>
+                    <li class="navbar-item">Pesquisar</li>
+				</ul>
+                
+                
+			</div>
+          
+		</navbar>
+
+		<!-- Showcase -->
+        
+		<div id="showcase">
+			<div class="showcase-container">
+                
+                <img src="https://media.tenor.com/Hj5esSs4H0oAAAAi/red-hot-chili-peppers-the-red-hot-chili-peppers.gif" width="400" alt="250" />
+                <br>
+				
+				<p>
+					<h1>This is Red Hot Chili Peppers</h1>
+				</p>
+				<button class="btn-primary">PLAY</button>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="footer-content">
+				<img src="https://upload.wikimedia.org/wikipedia/pt/b/bf/Red_Hot_Chili_Peppers_-_Blood_Sugar_Sex_Magik.jpg"  width="100" alt="100"   />
+				<img src="https://upload.wikimedia.org/wikipedia/pt/7/78/Red_Hot_Chili_Peppers_-_Californication.jpg"  width="100" alt="250"  />
+                <img src="https://upload.wikimedia.org/wikipedia/pt/0/03/The_Getaway.jpg"  width="100" alt="250"  />
+                <img src="https://m.media-amazon.com/images/I/81lOFvmn6tL._UF894,1000_QL80_.jpg"  width="100" alt="250"  />
+                <img src="https://upload.wikimedia.org/wikipedia/pt/2/27/Red_Hot_Chili_Peppers_-_By_the_Way.jpg" width="100" alt="250" />
+                <ul class="footer-menu">
+					
+					
+				</ul>
+
+				<div class="socials">
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-spotify"></i>
+				</div>
+			</div>
+			<div class="footer-info">
+				<ul class="footer-info-items">
+					<li class="footer-info-item">Legal</li>
+					<li class="footer-info-item">Centro de Privacidade</li>
+					<li class="footer-info-item">Política de privacidade</li>
+					<li class="footer-info-item">Cookies</li>
+					<li class="footer-info-item">Sobre anúncios</li>
+				</ul>
+
+				<div class="rights">
+					<div class="country">
+						<p>Campo Grande (RJ)</p>
+						<img src="img/brazil.png" alt="" class="brazil-flag" />
+					</div>
+					<p>&copy; MviniciusN21</p>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+		<script
+			src="https://kit.fontawesome.com/f9e19193d6.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
